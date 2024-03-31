@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>FaDev.Shared.Kernel</PackageId>
+    <PackageName>FaDev Shared Kernel</PackageName>
+    <Version>1.0.0</Version>
+    <Authors>Felix Aves</Authors>
+    <Description>This library contains utility classes to tackle common concerns, and to enforce a consistent approach across my projects. It includes custom error and task result implementations as well as base classes and interfaces for Domain Driven Design.</Description>
+    <PackageTags>DDD;Clean Architecture;Error Handling;Task Results</PackageTags>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
