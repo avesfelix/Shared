@@ -1,4 +1,4 @@
-﻿namespace Shared.Kernel;
+﻿namespace Kernel.Results;
 
 public class SuccessResult : Result
 {
@@ -12,8 +12,10 @@ public class SuccessResult : Result
 
 public class SuccessResult<T> : Result<T>
 {
+    #region Constructors
     public SuccessResult(T data) : base(data)
     {
         Success = true;
     }
+    #endregion
 }
